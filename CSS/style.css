@@ -1,0 +1,767 @@
+@font-face {
+    font-family: "GroteskBOLD";
+    src: url("../font/NeueHaasDisplayBold.ttf")
+}
+
+@font-face {
+    font-family: "Grotesk";
+    src: url("../font/NeueHaasDisplayBlack.ttf")
+}
+
+
+@font-face {
+    font-family: "Frutiger";
+    src: url("../font/Frutiger\ Next\ LT\ W06\ Bold\ Cond.ttf")
+}
+
+@keyframes gym {
+    0% {
+        background: #a3ffc359;
+        color: #00fffbea;
+    }
+
+    100% {
+        background:#4fff8d59;
+        color: white;
+    }
+}
+
+
+@keyframes office {
+    0% {
+        background: #ffff9954;
+        color: #00fffbea;
+    }
+
+    100% {
+        background:#ffff0054;
+        color: white;
+    }
+}
+
+
+@keyframes hospital {
+    0% {
+        background: #6ac59369;
+        color: #00fffbea;
+    }
+
+    100% {
+        background:#0bd56569;
+        color: white;
+    }
+}
+
+
+@keyframes beauty {
+    0% {
+        background: #ff8fbe45;
+        color: #00fffbea;
+    }
+
+    100% {
+        background:#ff006b45;
+        color: white;
+    }
+}
+
+
+@keyframes edu {
+    0% {
+        background: #45688670;
+        color: #00fffbea;
+    }
+
+    100% {
+        background:#0b4f8970;
+        color: white;
+    }
+}
+
+
+@keyframes cafe {
+    0% {
+        background: #ac8d696b;
+        color: #00fffbea;
+    }
+
+    100% {
+        background:#b575296b;
+        color: white;
+    }
+}
+
+
+@keyframes sports {
+    0% {
+        background: #95fdde73;
+        color: #00fffbea;
+    }
+
+    100% {
+        background:#00ffb473;
+        color: white;
+    }
+}
+
+
+@keyframes airport {
+    0% {
+        background: #a1fffd59;
+        color: #00fffbea;
+    }
+
+    100% {
+        background:#00fffc59;
+        color: white;
+    }
+}
+
+
+@keyframes TextColor {
+    0% {
+        
+        color: #e1fcfcea;
+        scale: 1;
+    }
+
+    100% {
+
+        color: white;
+        scale: 1.02;
+    }
+}
+
+@keyframes ZoomOut {
+    0% { 
+        scale: 1;
+        translate: 0% 0%;
+     }
+    100% { 
+        scale: 0.15;
+        translate: 0% -40%;
+     }
+}
+
+
+  @keyframes MarqueeLeft 
+  {
+    0% {
+        right:-100%;
+    }
+    100% {
+        right:720%;
+    }
+  }
+  
+.marquee { 
+    overflow: hidden;
+    position: relative;
+    animation: MarqueeLeft linear 100s infinite;
+    width: max-content;
+
+}
+
+.marquee-02 { 
+    overflow: hidden;
+    position: relative;
+    animation: MarqueeLeft linear 30s infinite;
+
+}
+
+.container {
+    margin: 0;
+    padding: 0%;
+    max-width: 100%;
+}
+
+.col {
+    padding: 0;
+}
+
+.row {
+    padding: 0;
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+
+.img-bg-1 {
+    background: url("../images/Specific/bots/GYm.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-bg-2 {
+    background: url("../images/Specific/bots/Airport.png");
+    background-size: cover;
+}
+
+.img-bg-3 {
+    background: url("../images/Specific/bots/beautybot.png");
+    background-size: cover;
+}
+
+.img-bg-4 {
+    background: url("../images/Specific/bots/Cafe.png");
+    background-size: cover;
+}
+
+.img-bg-5 {
+    background: url("../images/Specific/bots/educational_institutes.png");
+    background-size: cover;
+}
+
+.img-bg-6 {
+    background: url("../images/Specific/bots/Hospital.png");
+    background-size: cover;
+}
+
+.img-bg-7 {
+    background: url("../images/Specific/bots/Sports_Clubs.png");
+    background-size: cover;
+}
+
+.img-bg-8 {
+    background: url("../images/Specific/bots/Work.png");
+    background-size: cover;
+}
+
+img {
+    width: -webkit-fill-available;
+    padding: 0;
+}
+
+.row .ani1h1 {
+    font-family: 'Grotesk';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    color: #00fea7;
+    animation: TextColor 1s ease-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    animation-delay: 0s;
+}
+
+
+.row .ani2h1 {
+    font-family: 'Grotesk';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    color: #00fea7;
+    animation: TextColor 1s ease-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    animation-delay: 0.4s;
+}
+
+
+.row .ani3h1 {
+    font-family: 'Grotesk';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    color: #00fea7;
+    animation: TextColor 1s ease-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    animation-delay: 0.8s;
+}
+
+
+.row .ani4h1 {
+    font-family: 'Grotesk';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    color: #00fea7;
+    animation: TextColor 1s ease-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    animation-delay: 1.2s;
+}
+
+
+.row .ani5h1 {
+    font-family: 'Grotesk';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    color: #00fea7;
+    animation: TextColor 1s ease-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    animation-delay: 1.6s;
+}
+
+
+.row .ani6h1 {
+    font-family: 'Grotesk';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    color: #00fea7;
+    animation: TextColor 1s ease-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    animation-delay: 2s;
+}
+
+
+.row .ani7h1 {
+    font-family: 'Grotesk';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    color: #00fea7;
+    animation: TextColor 1s ease-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    animation-delay: 2.4s;
+}
+
+
+.row .ani8h1 {
+    font-family: 'Grotesk';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    color: #00fea7;
+    animation: TextColor 1s ease-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    animation-delay: 2.8s;
+}
+
+.row p{
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    color: white;
+    font-size: 1.6vw;
+    line-height: 2px;
+}
+.aniDelay1{
+    animation: gym 1s ease-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    animation-delay: 0s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    padding-top: 40%;
+    padding-bottom: 40%;
+}
+.aniDelay2{
+    animation: office 1s ease-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    animation-delay: 0.4s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    padding-top: 40%;
+    padding-bottom: 40%;
+}
+.aniDelay3{
+    animation: hospital 1s ease-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    animation-delay: 0.8s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    padding-top: 40%;
+    padding-bottom: 40%;
+}
+.aniDelay4{
+    animation: beauty 1s ease-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    animation-delay: 1.2s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    padding-top: 40%;
+    padding-bottom: 40%;
+}
+.aniDelay5{
+    animation:edu 1s ease-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    animation-delay: 1.6s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    padding-top: 40%;
+    padding-bottom: 40%;
+}
+.aniDelay6{
+    animation: cafe 1s ease-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    animation-delay: 2s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    padding-top: 40%;
+    padding-bottom: 40%;
+}
+.aniDelay7{
+    animation: sports 1s ease-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    animation-delay: 2.4s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    padding-top: 40%;
+    padding-bottom: 40%;
+}
+.aniDelay8{
+    animation: airport 1s ease-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    animation-delay: 2.8s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    padding-top: 40%;
+    padding-bottom: 40%;
+}
+
+.aniDelay1:hover{
+    background: #4fff8d59;
+    color: white;
+} 
+
+.aniDelay2:hover{
+    background: #ffff0054;
+    color: white;
+} 
+
+.aniDelay3:hover{
+    background: #0bd56569;
+    color: white;
+} 
+
+.aniDelay4:hover{
+    background: #ff006b45;
+    color: white;
+} 
+.aniDelay5:hover{
+    background: #0b4f8970;
+    color: white;
+} 
+
+.aniDelay6:hover{
+    background:  #b575296b;
+    color: white;
+} 
+
+.aniDelay7:hover{
+    background: #00ffb473;
+    color: white;
+} 
+
+.aniDelay8:hover{
+    background: #00fffc59;
+    color: white;
+}
+
+.aniDelay1:hover h1, .aniDelay2:hover h1, .aniDelay3:hover h1, .aniDelay4:hover h1, .aniDelay5:hover h1, .aniDelay6:hover h1, .aniDelay7:hover h1, .aniDelay8:hover h1{
+    color: white;
+}
+.zoom{
+    scale: 5.1;
+    translate: 4% 142%;
+}
+
+#zoom {
+    scale: 5.1; translate: 4% 190%;
+  }
+
+
+.innovation-made-in-germany .container .row .col h1, .innovation-made-in-germany .container .row .col h2, .innovation-made-in-germany .container .row .col h3{
+    font-family: 'Frutiger';
+    font-size: 40px; 
+}
+
+.innovation-made-in-germany .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    background-image: url(../images/bg-innovation.png);
+    background-size: cover;
+}
+
+.innovation-made-in-germany .container .row-01{
+    width: 36%;
+}
+
+.innovation-made-in-germany .container .row-01 .c-01{
+    width: 100%;
+    flex: 1;
+}
+
+.innovation-made-in-germany .container .row-01 .c-01 h1{
+    padding: 0;
+    margin: 0;
+    text-align: end;
+}
+
+
+.innovation-made-in-germany .container .row-01 .c-02{
+    width: 16px;
+    height: 38px;
+    padding: 3px 2% 0 2%;
+    flex: 0.12;
+}
+
+.innovation-made-in-germany .container .row-01 .c-02 img{
+    width: 100%;
+    height: 100%;
+}
+
+.innovation-made-in-germany .container .row-01 .c-03{
+    flex: 1;
+}
+
+
+.innovation-made-in-germany .container .row-01 .c-03 h1{
+    text-align: initial;
+}
+
+.container .machine-image #machine-zoom{
+    position: absolute;
+    transform: translate(0%, -37%) scale(0.00007); 
+    transition: all 2s;
+
+}
+
+
+.container .machine-image #machine-zoom.animate{
+    transform: translate(0%, -2%) scale(1.01); 
+    transition: all 2s;
+}
+
+.scroll-images{
+    position: relative;
+    top: 45.5%;
+}
+
+.scroll-images img{
+    margin: 0;
+    BORDER-RADIUS: 4PX;
+    width: 200px;
+    
+}
+
+.scroll-images #airport{
+    box-shadow: 1px 1px 3px 2px #00fffb7c;
+}
+
+.scroll-images #beauty{
+    box-shadow: 1px 1px 3px 2px #ff006a8e;
+}
+
+.scroll-images #cafe{
+    box-shadow: 1px 1px 3px 2px #fbd995ab;
+}
+
+.scroll-images #edu{
+    box-shadow: 1px 1px 3px 2px #00bfff9a;
+}
+
+.scroll-images #gym{
+    box-shadow: 1px 1px 3px 2px #00fea5ad;
+}
+
+.scroll-images #hospital{
+    box-shadow: 1px 1px 3px 2px #00ffb398;
+}
+
+
+.scroll-images img:hover{
+    scale:1.05;
+}
+
+#rest-machines{
+    scale: 0.16
+}
+
+.container .machine-image video{   
+    position: absolute!important;
+    transform: translate(0%, 32%)!important;
+}
+
+.container .machine-image img{
+    z-index: 5;
+}
+
+.container .section03{
+    position: relative;
+    top: 14%;
+}
+
+.container .section03 #path{
+    stroke-dasharray: 2300;
+    stroke-dashoffset: 0;
+    fill:none;
+    stroke:#1cd347;
+    stroke-width:2px;
+    transition: all 3s;
+}
+
+.container .section03 #path.second-animate {
+    stroke-dashoffset: 3000;
+}
+
+#contains{
+    position: relative;
+    top: -4%;
+    background-image: url(../images/BG.jpg);
+    background-size: cover;
+    height: 68%;
+}
+
+@keyframes dot {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+} 
+
+
+#cls-1{
+    fill:#00ff79;
+    opacity: 1;
+    transition: all 3s;
+    }
+#cls-2{
+    fill:#1cd347;
+    opacity: 1;
+    transition: all 3s;
+    }
+#cls-3{
+    fill:url(#radial-gradient);
+    opacity: 1;
+    transition: all 3s;
+    }
+.cls-4{
+    mask:url(#mask);
+    }
+
+#cls-1.ani-mate{
+    opacity: 0;
+    transition: all 2s;
+}
+
+#cls-2.ani-mate{
+    opacity: 0;
+    transition: all 2s;
+}
+    
+#cls-3.ani-mate{
+    opacity: 0;
+    transition: all 2s;
+    }
+
+#cls-5{
+    fill:#00ff79;
+    opacity: 1;
+    transition: all 2s;
+    }
+#cls-6{
+    fill:#1cd347;
+    opacity: 1;
+    transition: all 2s;
+    }
+#cls-7{
+    fill:url(#radial-gradient);
+    opacity: 1;
+    transition: all 2s;
+    }
+.cls-8{
+    mask:url(#mask);
+    }
+
+
+#cls-5.ani-mate-center{
+    fill:#00ff79;
+    opacity: 0;
+    transition: all 2s;
+}
+
+#cls-6.ani-mate-center{
+    fill:#1cd347;
+    opacity: 0;
+    transition: all 2s;
+}
+
+#cls-7.ani-mate-center{
+    fill:url(#radial-gradient);
+    opacity: 0;
+    transition: all 2s;
+}
