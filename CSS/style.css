@@ -343,7 +343,7 @@ img {
 }
 
 .row p{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display';
     margin: 0;
     color: white;
     font-size: 1.6vw;
@@ -541,6 +541,7 @@ img {
 .innovation-made-in-germany .container .row .col h1, .innovation-made-in-germany .container .row .col h2, .innovation-made-in-germany .container .row .col h3{
     font-family: 'Frutiger';
     font-size: 40px; 
+    color: black;
 }
 
 .innovation-made-in-germany .container {
@@ -550,7 +551,9 @@ img {
     align-items: center;
     padding-top: 20%;
     padding-bottom: 20%;
-    background-image: url(../images/bg-innovation.png);
+    /* background-color: black;
+    background: linear-gradient(93deg, black, #6e6e6e); */
+    background-image: url(../images/BUSINESS/business-bg.jpg);
     background-size: cover;
 }
 
@@ -567,6 +570,7 @@ img {
     padding: 0;
     margin: 0;
     text-align: end;
+    color: black;
 }
 
 
@@ -593,20 +597,20 @@ img {
 
 .container .machine-image #machine-zoom{
     position: absolute;
-    transform: translate(0%, -37%) scale(0.00007); 
+    transform: translate(0%, -37.5%) scale(0.00007); 
     transition: all 2s;
 
 }
 
 
 .container .machine-image #machine-zoom.animate{
-    transform: translate(0%, -2%) scale(1.01); 
+    transform: translate(0%, -1%) scale(1.01); 
     transition: all 2s;
 }
 
 .scroll-images{
     position: relative;
-    top: 45.5%;
+    top: -3.9%;
 }
 
 .scroll-images img{
@@ -663,6 +667,17 @@ img {
     top: 14%;
 }
 
+.container .section03 .text-box h1{
+    z-index: 10;
+    text-align: center;
+    position: ABSOLUTE;
+    top: 15%;
+    LEFT: 15%;
+    font-family: 'Grotesk';
+    font-size: 100px;
+    color: #0DEB64;
+}
+
 .container .section03 #path{
     stroke-dasharray: 2300;
     stroke-dashoffset: 0;
@@ -680,19 +695,18 @@ img {
     position: relative;
     top: -4%;
     background-image: url(../images/BG.jpg);
-    background-size: cover;
-    height: 68%;
+    height: 48%;
 }
 
-@keyframes dot {
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-} 
+#german-2-world{
+    opacity: 1;
+    transition: all 3s;
+}
 
+#german-2-world.ani-mate{
+    opacity: 0;
+    transition: all 3s;
+}
 
 #cls-1{
     fill:#00ff79;
@@ -703,15 +717,17 @@ img {
     fill:#1cd347;
     opacity: 1;
     transition: all 3s;
-    }
+}
+
 #cls-3{
     fill:url(#radial-gradient);
     opacity: 1;
     transition: all 3s;
-    }
+}
+
 .cls-4{
     mask:url(#mask);
-    }
+}
 
 #cls-1.ani-mate{
     opacity: 0;
@@ -764,4 +780,124 @@ img {
     fill:url(#radial-gradient);
     opacity: 0;
     transition: all 2s;
+}
+
+
+.h-row12 {
+    padding: 50px 0px;
+    background-color: #f2f1f1;
+    padding: 100px 0px;
+    position: relative;
+    text-align: center;
+    top: -4%;
+}
+
+.h-row12 .h-row12-inner {
+    padding: 0px 20px;
+}
+
+.h-row12 .h-row12-inner h2 {
+    margin-bottom: 20px;
+    font-size: 64px;
+}
+
+.h-row12 .form-wrapper input[type="text"],
+.h-row12 .form-wrapper input[type="email"],
+.h-row12 .form-wrapper textarea {
+    font-size: 20px;
+    padding: 0px;
+    color: #333
+}
+
+
+.h-row12 .form-wrapper input[type="submit"] {
+    min-width: 0;
+    width: 100%;
+    margin: 0px
+}
+
+.h-row12 h2,
+.h-row12 h4,
+.h-row12 .form-wrapper input[type="text"],
+.h-row12 .form-wrapper input[type="email"],
+.h-row12 .form-wrapper textarea{
+    font-family: 'Playfair Display';
+}
+
+.h-row12 h2 span{
+    font-family: 'Grotesk';
+}
+
+.h-row12 h4 {
+    font-size: 20px;
+    color: #242121;
+    margin: 0px 0px 30px;
+}
+
+.h-row12 .form-wrapper {
+    margin: 40px 0px 20px;
+}
+
+.h-row12 .form-wrapper input[type="text"]{
+    font-size: 30px;
+    line-height: 40px;
+    color: #333;
+    border: 0px;
+    background: transparent;
+    border-bottom: solid 1px #b3b7b8;
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+.h-row12 .form-wrapper input[type="email"] {
+    font-size: 30px;
+    line-height: 40px;
+    color: #333;
+    border: 0px;
+    background: transparent;
+    border-bottom: solid 1px #b3b7b8;
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+.h-row12 .form-wrapper textarea {
+    font-size: 30px;
+    line-height: 40px;
+    color: #b3b7b8;
+    border: 0px;
+    background: transparent;
+    border-bottom: solid 1px #b3b7b8;
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+    outline: none;
+    margin-top: 50px;
+}
+
+.h-row12 .form-wrapper input[type="submit"] {
+    border-color: #696e6f;
+    min-width: 300px;
+}
+
+.btn-trans:hover {
+    background: #333333;
+    color: #05e9ab !important;
+}
+
+.btn-trans {
+    border: solid 1px #e6e6e5;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    padding: 14px 20px;
+    min-width: 218px;
+    margin: 0px 10px;
+    letter-spacing: 1px;
+    background: transparent;
 }
